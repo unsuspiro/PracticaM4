@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        
+</head>
+
+<body>
+
+    <header>
+        <h1>Mercado</h1>
+    
+        <div class="container-icon">
+            <div class="container-cart-icon">
+    
+                <div class="icon-cart">
+                    <i class="ri-shopping-bag-line"></i>
+
+                    <div class="count-products">
+                        <span id="contador-productos">0</span>
+                    </div>
+
+
+                </div>
+
+                <div class="cart-total-hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                </div>
+                
+    
+            </div>
+
+         
+
+           <!-- <p class="cart-empty">El carrito está vacío</p> -->
+            
+    
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto.carrito">Fruta Gomu Gomu</p>
+                            <span>$50.000</span>
+    
+                        </div>
+    
+                        <div class="icon-close">
+                            <i class="ri-close-circle-fill"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    </header>
+    <div class="container-items">
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta gomu gomu.jpg" alt="Gomu Gomu">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Gomu Gomu</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta gomu gomu', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta Bara Bara.jpg" alt="Bara Bara">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Bara Bara</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta bara bara', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta awa awa.jpg" alt="Awa Awa">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Awa Awa</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta awa awa', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta Mera Mera.jpg" alt="Mera Mera">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Mera Mera</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta mera mera', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta mero mero.jpg" alt="Mera Mera">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Mero Mero</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta mero mero', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <figure>
+                <img src="assets/Fruta ope ope.jpg" alt="Mera Mera">
+            </figure>
+            <div class="info-product">
+                <h2>Fruta Ope Ope</h2>
+                <p class="price">$50.000</p>
+                <button class="btn-add-cart" onclick="Agregaralcarro('Fruta ope ope', 50000)">Comprar</button>
+            </div>
+        </div>
+    
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
